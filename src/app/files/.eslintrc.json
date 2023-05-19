@@ -1,0 +1,34 @@
+{
+  "root": true,
+  "extends": ["@byndyusoft/eslint-config/backend"],
+  "parserOptions": {
+    "ecmaVersion": 2021, // Node.js v16 LTS
+    "project": ["./packages/*/tsconfig.json"]
+  },
+  "overrides": [
+    {
+      "files": ["*.ts"],
+      "settings": {
+        "import/resolver": {
+          "typescript": {
+            "project": "./packages/*/tsconfig.json"
+          }
+        }
+      }
+    }
+  ],
+  "parser": "@typescript-eslint/parser",
+  "plugins": ["@typescript-eslint/eslint-plugin"],
+  "env": {
+    "node": true,
+    "jest": true
+  },
+  "ignorePatterns": [".eslintrc.js"],
+  "rules": {
+    "@typescript-eslint/interface-name-prefix": "off",
+    "@typescript-eslint/explicit-function-return-type": "off",
+    "@typescript-eslint/explicit-module-boundary-types": "off",
+    "@typescript-eslint/no-explicit-any": "off"
+  }
+}
+
