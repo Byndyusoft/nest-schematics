@@ -23,7 +23,7 @@
     "prebuild": "shx rm -rf ./dist",
     "build": "yarn run prebuild && yarn run build:src",
     "build:src": "tsc --project ./tsconfig.build.json",
-    "postinstall": "husky install",
+    "_postinstall": "husky install",
     "lint": "yarn run lint:eslint && yarn run lint:markdown && yarn run lint:prettier",
     "lint:eslint": "eslint --ignore-path ./.gitignore --max-warnings 0 --ext .ts,.js .",
     "lint:eslint:fix": "eslint --ignore-path ./.gitignore --fix --ext .ts,.js .",
@@ -81,12 +81,12 @@
     "ts-node": "10.9.1",
     "typescript": "5.0.4"
   },
-  "packageManager": "yarn@4.0.0-rc.34",
+  "packageManager": "yarn@4.0.0-rc.44",
   "engines": {
     "node": ">=14"
   },
   "publishConfig": {
     "access": "public"
   },
-  "schematics": "./scr/collection.json"
+  "schematics": "./src/collection.json"
 }
