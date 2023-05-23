@@ -20,6 +20,9 @@
     "!dist/*.tsbuildinfo"
   ],
   "scripts": {
+    "copy:lib": "cpx 'src/**/{files,workspace}/**/*.*' dist",
+    "copy:collection": "cpx src/collection.json dist && cpx 'src/**/schema.json' dist",
+    "postbuild": "npm run copy:collection && npm run copy:lib",
     "prebuild": "shx rm -rf ./dist",
     "build": "yarn run prebuild && yarn run build:src",
     "build:src": "tsc --project ./tsconfig.build.json",
