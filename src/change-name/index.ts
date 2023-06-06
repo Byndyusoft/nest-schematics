@@ -1,25 +1,23 @@
-import {Rule, Tree} from "@angular-devkit/schematics";
+import { Rule, Tree } from "@angular-devkit/schematics";
 
 export function main(_options: any): Rule {
-    return (tree: Tree) => {
+  return (tree: Tree) => {
+    const { name } = _options;
 
-        const {name} = _options;
+    tree.visit((path, entry) => {
+      if (path.includes("node_modules")) {
+        return;
+      }
 
-        tree.visit((path, entry) => {
+      if (entry && path.includes("package.json")) {
+        const content = entry.content.toString("utf-8");
+        const json = JSON.parse(content);
+        json["author"] = name;
+        const newContent = JSON.stringify(json, null, 2);
+        tree.overwrite(path, newContent);
+      }
+    });
 
-            if (path.includes('node_modules')) {
-                return;
-            }
-
-            if (entry && path.includes('package.json')) {
-                const content = entry.content.toString('utf-8');
-                const json = JSON.parse(content)
-                json['author'] = name;
-                const newContent = JSON.stringify(json, null, 2);
-                tree.overwrite(path, newContent);
-            }
-        });
-
-        return tree;
-    };
+    return tree;
+  };
 }

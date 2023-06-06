@@ -1,6 +1,5 @@
 {
   "name": "root",
-  "aleterName": "<%= name %>",
   "version": "0.0.0-development",
   "private": true,
   "description": "root workspace",
@@ -46,5 +45,6 @@
     "prettier": "2.8.2",
     "prettier-plugin-packagejson": "2.3.0"
   },
-  "packageManager": "yarn@4.0.0-rc.26"
+  "packageManager": "yarn@4.0.0-rc.26",
+  "aleterName": "<%= name %>"
 }
