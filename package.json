@@ -91,5 +91,5 @@
   "publishConfig": {
     "access": "public"
   },
-  "schematics": "./src/collection.json"
+  "schematics": "./dist/collection.json"
 }
