@@ -20,13 +20,13 @@
     "!dist/*.tsbuildinfo"
   ],
   "scripts": {
-    "copy:lib": "cpx 'src/**/{files,workspace}/**/*.*' dist",
-    "copy:collection": "cpx src/collection.json dist && cpx 'src/**/schema.json' dist",
-    "postbuild": "npm run copy:collection && npm run copy:lib",
+    "_postinstall": "husky install",
     "prebuild": "shx rm -rf ./dist",
     "build": "yarn run prebuild && yarn run build:src",
+    "postbuild": "npm run copy:collection && npm run copy:lib",
     "build:src": "tsc --project ./tsconfig.build.json",
-    "_postinstall": "husky install",
+    "copy:collection": "cpx src/collection.json dist && cpx 'src/**/schema.json' dist",
+    "copy:lib": "cpx 'src/**/{files,workspace}/**/*.*' dist",
     "lint": "yarn run lint:eslint && yarn run lint:markdown && yarn run lint:prettier",
     "lint:eslint": "eslint --ignore-path ./.gitignore --max-warnings 0 --ext .ts,.js .",
     "lint:eslint:fix": "eslint --ignore-path ./.gitignore --fix --ext .ts,.js .",

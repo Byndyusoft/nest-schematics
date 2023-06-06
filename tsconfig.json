@@ -2,8 +2,8 @@
   "extends": "@byndyusoft/tsconfig/tsconfig.node16.json",
   "compilerOptions": {
     // Emit
-    "outDir": "./src"
+    "outDir": "./dist"
   },
-  "include": ["src", ",test"],
-  "exclude": ["src/*/files/**/*", "!src/*"]
+  "include": ["src"],
+  "exclude": ["node_modules", "src/**/*.test.ts", "src/**/files/**"]
 }
