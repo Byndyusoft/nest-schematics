@@ -15,65 +15,34 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@angular-devkit/core@npm:15.2.4":
-  version: 15.2.4
-  resolution: "@angular-devkit/core@npm:15.2.4"
+"@angular-devkit/core@npm:16.1.4":
+  version: 16.1.4
+  resolution: "@angular-devkit/core@npm:16.1.4"
   dependencies:
     ajv: "npm:8.12.0"
     ajv-formats: "npm:2.1.1"
     jsonc-parser: "npm:3.2.0"
-    rxjs: "npm:6.6.7"
+    rxjs: "npm:7.8.1"
     source-map: "npm:0.7.4"
   peerDependencies:
     chokidar: ^3.5.2
   peerDependenciesMeta:
     chokidar:
       optional: true
-  checksum: 4f602c15dd325f96d701ee5d5497c93b6e399c232f52c07d826884dfbf373b64efc92d995ebab56a14f64522c300e307cca147732f36d89e82b6554ec565bcc1
+  checksum: bd11d23b2c9072bef54c745735d7c31d0297c83ed4fe685b449246cda48db28c3cf698a30da60d597a840a73ee8d25ad26194b978b7479586e0f5f56281a809d
   languageName: node
   linkType: hard
 
-"@angular-devkit/core@npm:15.2.6":
-  version: 15.2.6
-  resolution: "@angular-devkit/core@npm:15.2.6"
+"@angular-devkit/schematics@npm:16.1.4":
+  version: 16.1.4
+  resolution: "@angular-devkit/schematics@npm:16.1.4"
   dependencies:
-    ajv: "npm:8.12.0"
-    ajv-formats: "npm:2.1.1"
+    "@angular-devkit/core": "npm:16.1.4"
     jsonc-parser: "npm:3.2.0"
-    rxjs: "npm:6.6.7"
-    source-map: "npm:0.7.4"
-  peerDependencies:
-    chokidar: ^3.5.2
-  peerDependenciesMeta:
-    chokidar:
-      optional: true
-  checksum: 1128dda3274799cac0f9237774e74446a1a254493a00487e9aab4c4993acaecd469426c49e301dd75f22e69d185cb00a38d6477a876cb625a0abbcc6babda33b
-  languageName: node
-  linkType: hard
-
-"@angular-devkit/schematics@npm:15.2.4":
-  version: 15.2.4
-  resolution: "@angular-devkit/schematics@npm:15.2.4"
-  dependencies:
-    "@angular-devkit/core": "npm:15.2.4"
-    jsonc-parser: "npm:3.2.0"
-    magic-string: "npm:0.29.0"
+    magic-string: "npm:0.30.0"
     ora: "npm:5.4.1"
-    rxjs: "npm:6.6.7"
-  checksum: f9b5acbadf198c5b8eb040c879d18c967cf92fafcb0901d14764c44e72910b7128d69223e8a1e97a4b27edf7393f813c9d35fcd7ddd5b7757fe85ea432969000
-  languageName: node
-  linkType: hard
-
-"@angular-devkit/schematics@npm:15.2.6":
-  version: 15.2.6
-  resolution: "@angular-devkit/schematics@npm:15.2.6"
-  dependencies:
-    "@angular-devkit/core": "npm:15.2.6"
-    jsonc-parser: "npm:3.2.0"
-    magic-string: "npm:0.29.0"
-    ora: "npm:5.4.1"
-    rxjs: "npm:6.6.7"
-  checksum: 73367138d336d6f6105099d806878634fd36e885f34768d8bdc7be1e6cc5353d37885fbb2953277900ef686c6b5eed0c383876d4ab22347b861a07fdc9057f5d
+    rxjs: "npm:7.8.1"
+  checksum: ae278059a0f9d3fda4173795a6ad450fda34f33587b78f70c444a672540c3e6368346159e7aca7c3c70a19e78a021408177bba60fbe4e8a97a79965b121d349f
   languageName: node
   linkType: hard
 
@@ -515,8 +484,8 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "@byndyusoft/nest-schematics@workspace:."
   dependencies:
-    "@angular-devkit/core": "npm:15.2.6"
-    "@angular-devkit/schematics": "npm:15.2.6"
+    "@angular-devkit/core": "npm:16.1.4"
+    "@angular-devkit/schematics": "npm:16.1.4"
     "@byndyusoft/eslint-config": "npm:2.2.1"
     "@byndyusoft/nest-swagger": "npm:^6.3.0-1"
     "@byndyusoft/tsconfig": "npm:1.2.0"
@@ -524,7 +493,7 @@ __metadata:
     "@commitlint/config-angular": "npm:17.6.3"
     "@commitlint/config-conventional": "npm:17.4.0"
     "@nestjs/common": "npm:^9.4.1"
-    "@schematics/angular": "npm:15.2.4"
+    "@schematics/angular": "npm:16.1.4"
     "@types/jest": "npm:29.5.1"
     "@types/node": "npm:18.16.8"
     "@typescript-eslint/eslint-plugin": "npm:5.59.5"
@@ -1691,14 +1660,14 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@schematics/angular@npm:15.2.4":
-  version: 15.2.4
-  resolution: "@schematics/angular@npm:15.2.4"
+"@schematics/angular@npm:16.1.4":
+  version: 16.1.4
+  resolution: "@schematics/angular@npm:16.1.4"
   dependencies:
-    "@angular-devkit/core": "npm:15.2.4"
-    "@angular-devkit/schematics": "npm:15.2.4"
+    "@angular-devkit/core": "npm:16.1.4"
+    "@angular-devkit/schematics": "npm:16.1.4"
     jsonc-parser: "npm:3.2.0"
-  checksum: e33a331176e2999858b7ed835b91a7e39b3d5d57703f8019fa770f1c195c3d418154b9d27bbdfa2bddc2da9567a11f4983286997a1ae9dedfe337106030ec152
+  checksum: f067a4c2bb1238975d6ab2ee959bedfee8d6427c55958e9c63bd05f373ab9c743e5a50a052546cca64cfbb7975366f69221b703efdaa1522f9bf7324640d8c8c
   languageName: node
   linkType: hard
 
@@ -9534,12 +9503,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"magic-string@npm:0.29.0":
-  version: 0.29.0
-  resolution: "magic-string@npm:0.29.0"
+"magic-string@npm:0.30.0":
+  version: 0.30.0
+  resolution: "magic-string@npm:0.30.0"
   dependencies:
     "@jridgewell/sourcemap-codec": "npm:^1.4.13"
-  checksum: f7ee668220ecaabc6f8c3d0ef9f97177fd86ad67eb7b27257afc1f6185a6935f9ddb987fbd638e7e97b406003b9c662012a2f90ed7000736d6c499bb42762f97
+  checksum: ed9c8873be1494aaebba171705ae16bc14646d933410f53cf4a997b53a0d231e8aa7f168b7c3ed942099f19ad0c3e419e4033a01b758b94f0eb1e48d65ab6078
   languageName: node
   linkType: hard
 
@@ -12526,16 +12495,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"rxjs@npm:6.6.7":
-  version: 6.6.7
-  resolution: "rxjs@npm:6.6.7"
-  dependencies:
-    tslib: "npm:^1.9.0"
-  checksum: f593c1d7a24848a2c937d31b806b7940a7fad61902eea6893dad51298f42291585c3339112eec876671a5cd0eb3cf73da14e45a91255440db239c8f640f57ada
-  languageName: node
-  linkType: hard
-
-"rxjs@npm:^7.8.0":
+"rxjs@npm:7.8.1, rxjs@npm:^7.8.0":
   version: 7.8.1
   resolution: "rxjs@npm:7.8.1"
   dependencies:
@@ -13811,7 +13771,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"tslib@npm:^1.8.1, tslib@npm:^1.9.0":
+"tslib@npm:^1.8.1":
   version: 1.14.1
   resolution: "tslib@npm:1.14.1"
   checksum: 441af59dc42ad4ae57140e62cb362369620c6076845c2c2b0ecc863c1d719ce24fdbc301e9053433fef43075e061bf84b702318ff1204b496a5bba10baf9eb9f
