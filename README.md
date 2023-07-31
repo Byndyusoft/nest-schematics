@@ -1,4 +1,4 @@
-# ᐸRepository nameᐳ
+# ᐸNest-schematicsᐳ
 
 [![npm@latest](https://img.shields.io/npm/v/@@byndyusoft/nest-schematics/latest.svg)](https://www.npmjs.com/package/@@byndyusoft/nest-schematics)
 [![test](https://github.com/Byndyusoft/node-typescript-template/actions/workflows/test.yaml/badge.svg?branch=master)](https://github.com/Byndyusoft/node-typescript-template/actions/workflows/test.yaml)
@@ -12,16 +12,21 @@
 - Node.js v16 LTS or later
 - Yarn
 
-## Install
-
-```bash
-yarn add ᐸPackage nameᐳ
-```
-
 ## Usage
 
 ```bash
 yarn dlx -p byndyusoft-schematics@https://github.com/Byndyusoft/nest-schematics  -p @nestjs/cli nest g app -c byndyusoft-schematics
+```
+
+## Add schematics
+
+- The "Angular schematics" is taken as a basis.
+- Add a new schema by analogy and write it to collection.json
+
+## Test locally
+
+```bash
+yarn dlx -p byndyusoft-schematics@C:\git-repo\nest-schematics -p @nestjs/cli nest g app -c byndyusoft-schematics
 ```
 
 ## Maintainers
