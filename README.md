@@ -20,8 +20,8 @@ yarn add ᐸPackage nameᐳ
 
 ## Usage
 
-```typescript
-// Usage example
+```bash
+yarn dlx -p byndyusoft-schematics@https://github.com/Byndyusoft/nest-schematics  -p @nestjs/cli nest g app -c byndyusoft-schematics
 ```
 
 ## Maintainers

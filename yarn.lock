@@ -529,6 +529,7 @@ __metadata:
     "@types/node": "npm:18.16.8"
     "@typescript-eslint/eslint-plugin": "npm:5.59.5"
     "@typescript-eslint/parser": "npm:5.59.5"
+    copyfiles: "npm:^2.4.1"
     cpx: "npm:1.5.0"
     eslint: "npm:8.40.0"
     eslint-config-prettier: "npm:8.8.0"
@@ -4184,6 +4185,24 @@ __metadata:
     each-props: "npm:^1.3.2"
     is-plain-object: "npm:^5.0.0"
   checksum: 7231c5faeeb6e1b6c7d6984a7cfd79544295f4f51124fbf543117679c80a8740f1fbf8e045e03c8ff4d7542ba3f2c1b6f95986b3b510767b5cafe228a18f19da
+  languageName: node
+  linkType: hard
+
+"copyfiles@npm:^2.4.1":
+  version: 2.4.1
+  resolution: "copyfiles@npm:2.4.1"
+  dependencies:
+    glob: "npm:^7.0.5"
+    minimatch: "npm:^3.0.3"
+    mkdirp: "npm:^1.0.4"
+    noms: "npm:0.0.0"
+    through2: "npm:^2.0.1"
+    untildify: "npm:^4.0.0"
+    yargs: "npm:^16.1.0"
+  bin:
+    copyfiles: copyfiles
+    copyup: copyfiles
+  checksum: 3c30cbeec8e320a56b8be4431c060e33728ae89d3d89db08eb52f531405530adab70897976e07b5330facd114a21be1bc17350a1bd2f324f9b7905fb51f59de5
   languageName: node
   linkType: hard
 
@@ -9878,7 +9897,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"minimatch@npm:^3.0.2, minimatch@npm:^3.0.4, minimatch@npm:^3.0.5, minimatch@npm:^3.1.1, minimatch@npm:^3.1.2":
+"minimatch@npm:^3.0.2, minimatch@npm:^3.0.3, minimatch@npm:^3.0.4, minimatch@npm:^3.0.5, minimatch@npm:^3.1.1, minimatch@npm:^3.1.2":
   version: 3.1.2
   resolution: "minimatch@npm:3.1.2"
   dependencies:
@@ -10258,6 +10277,16 @@ __metadata:
   version: 2.0.11
   resolution: "node-releases@npm:2.0.11"
   checksum: 0c9f0445d103f2d1f38eee6492254097ab3e470fd48079b6075ea1c241a3fa1c298bdc2565454b22efd58464837cc67bbe22e6513146161c550cf6133c2c65ac
+  languageName: node
+  linkType: hard
+
+"noms@npm:0.0.0":
+  version: 0.0.0
+  resolution: "noms@npm:0.0.0"
+  dependencies:
+    inherits: "npm:^2.0.1"
+    readable-stream: "npm:~1.0.31"
+  checksum: da3ae9ae44b17ff264c899e3d364ba22371d489932dc5bb37bdd566d484a90606df9d70c982c381a07c310541aff1b973389336572a42f1001ff14488958ba30
   languageName: node
   linkType: hard
 
@@ -11989,6 +12018,18 @@ __metadata:
   languageName: node
   linkType: hard
 
+"readable-stream@npm:~1.0.31":
+  version: 1.0.34
+  resolution: "readable-stream@npm:1.0.34"
+  dependencies:
+    core-util-is: "npm:~1.0.0"
+    inherits: "npm:~2.0.1"
+    isarray: "npm:0.0.1"
+    string_decoder: "npm:~0.10.x"
+  checksum: 6c3abb4a779392e39805fca0f4a58b093673d52acc4f3bfecfa6fd82ef421dad3465f20379354be3e087f9c89d71e81cf5292c80939a32fca4cbee45e53a9994
+  languageName: node
+  linkType: hard
+
 "readdir-scoped-modules@npm:^1.1.0":
   version: 1.1.0
   resolution: "readdir-scoped-modules@npm:1.1.0"
@@ -13557,7 +13598,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"through2@npm:^2.0.0, through2@npm:^2.0.3, through2@npm:~2.0.0":
+"through2@npm:^2.0.0, through2@npm:^2.0.1, through2@npm:^2.0.3, through2@npm:~2.0.0":
   version: 2.0.5
   resolution: "through2@npm:2.0.5"
   dependencies:
@@ -14739,7 +14780,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"yargs@npm:^16.2.0":
+"yargs@npm:^16.1.0, yargs@npm:^16.2.0":
   version: 16.2.0
   resolution: "yargs@npm:16.2.0"
   dependencies:
