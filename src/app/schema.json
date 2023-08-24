@@ -1,7 +1,7 @@
 {
   "$schema": "http://json-schema.org/schema",
   "$id": "app",
-  "title": "Hello Options Schema",
+  "title": "app template",
   "type": "object",
   "properties": {
     "name": {
