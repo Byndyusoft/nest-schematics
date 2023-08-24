@@ -1,20 +1,15 @@
 {
   "$schema": "../node_modules/@angular-devkit/schematics/collection-schema.json",
   "schematics": {
-    "change-name": {
-      "description": "Change name.",
-      "factory": "./change-name/index#main",
-      "schema": "./change-name/schema.json"
+    "app": {
+      "description": "Create a Nest app.",
+      "factory": "./app/index#main",
+      "schema": "./app/schema.json"
     },
     "pg-module": {
       "description": "Create a Nest module.",
       "factory": "./pg-module/index#main",
       "schema": "./pg-module/schema.json"
-    },
-    "app": {
-      "description": "Create a Nest app.",
-      "factory": "./app/index#main",
-      "schema": "./app/schema.json"
     }
   }
 }

@@ -1,13 +1,5 @@
 {
-  "ignorePatterns": ["src/**/files"],
-  "parser": "@typescript-eslint/parser",
-  "plugins": ["unicorn"],
   "root": true,
-  "rules": {
-    "@typescript-eslint/interface-name-prefix": "off",
-    "@typescript-eslint/explicit-function-return-type": "off",
-    "@typescript-eslint/no-explicit-any": "off",
-    "@typescript-eslint/explicit-module-boundary-types": "off",
-    "@typescript-eslint/no-use-before-define": "off"
-  }
+  "extends": ["@byndyusoft/eslint-config/header-apache-2.0", "@byndyusoft/eslint-config/backend" ],
+  "ignorePatterns": ["src/**/files"]
 }

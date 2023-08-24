@@ -1,6 +1,6 @@
 # ᐸNest-schematicsᐳ
 
-[![npm@latest](https://img.shields.io/npm/v/@@byndyusoft/nest-schematics/latest.svg)](https://www.npmjs.com/package/@@byndyusoft/nest-schematics)
+[![npm@latest](https://img.shields.io/npm/v/@byndyusoft/nest-schematics/latest.svg)](https://www.npmjs.com/package/@@byndyusoft/nest-schematics)
 [![test](https://github.com/Byndyusoft/node-typescript-template/actions/workflows/test.yaml/badge.svg?branch=master)](https://github.com/Byndyusoft/node-typescript-template/actions/workflows/test.yaml)
 [![code style: prettier](https://img.shields.io/badge/code_style-prettier-ff69b4.svg)](https://github.com/prettier/prettier)
 [![semantic-release](https://img.shields.io/badge/%20%20%F0%9F%93%A6%F0%9F%9A%80-semantic--release-e10079.svg)](https://github.com/semantic-release/semantic-release)
@@ -15,7 +15,7 @@
 ## Usage
 
 ```bash
-yarn dlx -p byndyusoft-schematics@https://github.com/Byndyusoft/nest-schematics  -p @nestjs/cli nest g app -c byndyusoft-schematics
+yarn dlx -p @byndyusoft/nest-schematics -p @nestjs/cli nest g app -c @byndyusoft/nest-schematics
 ```
 
 ## Add schematics
