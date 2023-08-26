@@ -121,7 +121,7 @@
     "schema-user": "https://github.com/argus-xd/nestjs-schema-user.git",
     "shx": "0.3.4",
     "ts-jest": "29.0.3",
-    "typescript": "4.9.4",
+    "typescript": "5.2.2",
     "ᐸDtos testingᐳ": "workspace:*"
   },
   "engines": {
