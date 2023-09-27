@@ -1,21 +1,21 @@
+import { spawnSync } from "child_process";
+/* eslint-disable-next-line */
+import { normalize } from "path";
+
 import {
+  apply,
+  chain,
+  mergeWith,
+  move,
   Rule,
   SchematicContext,
   Tree,
-  apply,
   url,
-  mergeWith,
-  move,
-  chain,
 } from "@angular-devkit/schematics";
 import {
-  NodeDependencyType,
   addPackageJsonDependency,
+  NodeDependencyType,
 } from "@schematics/angular/utility/dependencies";
-
-/* eslint-disable-next-line */
-import { normalize } from "path";
-import { spawnSync } from "child_process";
 
 export function main(): Rule {
   return chain([

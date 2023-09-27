@@ -1,3 +1,6 @@
+/* eslint-disable-next-line */
+import { normalize } from "path";
+
 import { strings } from "@angular-devkit/core";
 import {
   apply,
@@ -11,8 +14,6 @@ import {
   url,
 } from "@angular-devkit/schematics";
 
-/* eslint-disable-next-line */
-import { normalize } from "path";
 import { AppOptions } from "./index.schema";
 
 export function main(options: AppOptions): Rule {

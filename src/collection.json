@@ -6,10 +6,10 @@
       "factory": "./app/index#main",
       "schema": "./app/schema.json"
     },
-    "pg-module": {
+    "pgModule": {
       "description": "Create a Nest module.",
-      "factory": "./pg-module/index#main",
-      "schema": "./pg-module/schema.json"
+      "factory": "./pgModule/index#main",
+      "schema": "./pgModule/schema.json"
     }
   }
 }
