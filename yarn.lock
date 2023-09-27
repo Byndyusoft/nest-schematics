@@ -450,14 +450,14 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@byndyusoft/eslint-config@npm:2.2.1":
-  version: 2.2.1
-  resolution: "@byndyusoft/eslint-config@npm:2.2.1"
+"@byndyusoft/eslint-config@npm:2.5.0":
+  version: 2.5.0
+  resolution: "@byndyusoft/eslint-config@npm:2.5.0"
   dependencies:
     "@typescript-eslint/eslint-plugin": "npm:^5.19.0"
     "@typescript-eslint/parser": "npm:^5.19.0"
     eslint-config-prettier: "npm:^8.5.0"
-    eslint-import-resolver-typescript: "npm:^2.7.1"
+    eslint-import-resolver-typescript: "npm:^3.5.5"
     eslint-plugin-dirs: "npm:^0.0.4"
     eslint-plugin-flowtype: "npm:^8.0.3"
     eslint-plugin-header: "npm:^3.1.1"
@@ -476,7 +476,7 @@ __metadata:
     pkg-dir: "npm:^5.0.0"
   peerDependencies:
     eslint: ^8.8.0
-  checksum: 25b389b999a1c3601987a7d5b1a823e05da8e0b46a2604b4954fd7de158706ebc985a28fecf7677a246f695dc9f33c1464a369662aa44e96e866b9fb5586226e
+  checksum: 01f7e935d96b08bbd511a75a2bacbb0606bf6636b175e4081b3333afdd84992973a38cce22294857df63d74e77313a0c05a9b6c6ccba1c2a0bee6d699355843d
   languageName: node
   linkType: hard
 
@@ -486,8 +486,7 @@ __metadata:
   dependencies:
     "@angular-devkit/core": "npm:^15.2.6"
     "@angular-devkit/schematics": "npm:^15.2.6"
-    "@byndyusoft/eslint-config": "npm:2.2.1"
-    "@byndyusoft/nest-swagger": "npm:6.3.0-1"
+    "@byndyusoft/eslint-config": "npm:2.5.0"
     "@byndyusoft/tsconfig": "npm:1.2.0"
     "@commitlint/cli": "npm:17.6.3"
     "@commitlint/config-angular": "npm:17.6.3"
@@ -515,33 +514,6 @@ __metadata:
     typescript: "npm:5.0.4"
   languageName: unknown
   linkType: soft
-
-"@byndyusoft/nest-swagger@npm:6.3.0-1":
-  version: 6.3.0-1
-  resolution: "@byndyusoft/nest-swagger@npm:6.3.0-1"
-  dependencies:
-    "@nestjs/mapped-types": "npm:1.2.2"
-    js-yaml: "npm:4.1.0"
-    lodash: "npm:4.17.21"
-    path-to-regexp: "npm:3.2.0"
-    swagger-ui-dist: "npm:4.18.2"
-  peerDependencies:
-    "@fastify/static": ^6.0.0
-    "@nestjs/common": ^9.0.0
-    "@nestjs/core": ^9.0.0
-    class-transformer: "*"
-    class-validator: "*"
-    reflect-metadata: ^0.1.12
-  peerDependenciesMeta:
-    "@fastify/static":
-      optional: true
-    class-transformer:
-      optional: true
-    class-validator:
-      optional: true
-  checksum: 574a4424d00789246d45892112928d1e79d3c059ff84e565eb48d4a9fc152fa9dad06d8bd8a2b8ebc1b3157f0cab50e67d9d11ba4d6a67e38abd3725edc8810f
-  languageName: node
-  linkType: hard
 
 "@byndyusoft/tsconfig@npm:1.2.0":
   version: 1.2.0
@@ -1216,23 +1188,6 @@ __metadata:
     class-validator:
       optional: true
   checksum: d0064527f9b3868bca8b79168bf27b712db8492dc3aec6ed378c25f840037b546505a9f18157d07d25edd7b63174a73638ec5a94e8c938e605a88bca29e3c057
-  languageName: node
-  linkType: hard
-
-"@nestjs/mapped-types@npm:1.2.2":
-  version: 1.2.2
-  resolution: "@nestjs/mapped-types@npm:1.2.2"
-  peerDependencies:
-    "@nestjs/common": ^7.0.8 || ^8.0.0 || ^9.0.0
-    class-transformer: ^0.2.0 || ^0.3.0 || ^0.4.0 || ^0.5.0
-    class-validator: ^0.11.1 || ^0.12.0 || ^0.13.0 || ^0.14.0
-    reflect-metadata: ^0.1.12
-  peerDependenciesMeta:
-    class-transformer:
-      optional: true
-    class-validator:
-      optional: true
-  checksum: b4cb4c28eaa850b0c01af67447aba09062b5a949e275c7b2b08821d5e7074d180f519cdbeeceafe4d38e2bc72080e880ab47835f93a603902e96447c4d565353
   languageName: node
   linkType: hard
 
@@ -3954,6 +3909,16 @@ __metadata:
   languageName: node
   linkType: hard
 
+"enhanced-resolve@npm:^5.12.0":
+  version: 5.15.0
+  resolution: "enhanced-resolve@npm:5.15.0"
+  dependencies:
+    graceful-fs: "npm:^4.2.4"
+    tapable: "npm:^2.2.0"
+  checksum: 80df14e9d11ae561b7477866cf5d475aaf5988de7f118ef5a05b94722a107ab58928e3e2cd5a270f696a4f6a16308661872bd6f27cccb2dbe4d8283eee39f62d
+  languageName: node
+  linkType: hard
+
 "entities@npm:~3.0.1":
   version: 3.0.1
   resolution: "entities@npm:3.0.1"
@@ -4175,19 +4140,21 @@ __metadata:
   languageName: node
   linkType: hard
 
-"eslint-import-resolver-typescript@npm:^2.7.1":
-  version: 2.7.1
-  resolution: "eslint-import-resolver-typescript@npm:2.7.1"
+"eslint-import-resolver-typescript@npm:^3.5.5":
+  version: 3.6.1
+  resolution: "eslint-import-resolver-typescript@npm:3.6.1"
   dependencies:
     debug: "npm:^4.3.4"
-    glob: "npm:^7.2.0"
+    enhanced-resolve: "npm:^5.12.0"
+    eslint-module-utils: "npm:^2.7.4"
+    fast-glob: "npm:^3.3.1"
+    get-tsconfig: "npm:^4.5.0"
+    is-core-module: "npm:^2.11.0"
     is-glob: "npm:^4.0.3"
-    resolve: "npm:^1.22.0"
-    tsconfig-paths: "npm:^3.14.1"
   peerDependencies:
     eslint: "*"
     eslint-plugin-import: "*"
-  checksum: 6c0c8ec3cf8f52190e66ea068196fd587644070eea2dd5e692541d36b1f2210a01c96c8f2f71bdb12b20e85e9085dfe150b9a7f0eef81be0cb7bccc17539846d
+  checksum: 287d0c400dde4ee6a3414818bc8e2743a1e7ab357f9c61c9e0775218ae13c5bd0387042488a24adb0983ecc07387711b8582d97469a8eecc115e965013480336
   languageName: node
   linkType: hard
 
@@ -4758,6 +4725,19 @@ __metadata:
   languageName: node
   linkType: hard
 
+"fast-glob@npm:^3.3.1":
+  version: 3.3.1
+  resolution: "fast-glob@npm:3.3.1"
+  dependencies:
+    "@nodelib/fs.stat": "npm:^2.0.2"
+    "@nodelib/fs.walk": "npm:^1.2.3"
+    glob-parent: "npm:^5.1.2"
+    merge2: "npm:^1.3.0"
+    micromatch: "npm:^4.0.4"
+  checksum: e26659062337c60300761c4e46eeabba295ae4140dee6332e69977d920d7d96cb502f8b8a2358e131f088f9d30a98789c9920398896b317f028ba73dee710b01
+  languageName: node
+  linkType: hard
+
 "fast-json-stable-stringify@npm:2.x, fast-json-stable-stringify@npm:^2.0.0, fast-json-stable-stringify@npm:^2.1.0":
   version: 2.1.0
   resolution: "fast-json-stable-stringify@npm:2.1.0"
@@ -5123,6 +5103,15 @@ __metadata:
   languageName: node
   linkType: hard
 
+"get-tsconfig@npm:^4.5.0":
+  version: 4.7.2
+  resolution: "get-tsconfig@npm:4.7.2"
+  dependencies:
+    resolve-pkg-maps: "npm:^1.0.0"
+  checksum: 8cf806bd7eb7248103b43d15e1fef0c36c7e011394442e5d282679bf42cafdb7d12c94ef1d89bbde1ab9e0bc61156a5588b317a6208bf6eba64ca3973abc48a1
+  languageName: node
+  linkType: hard
+
 "get-uri@npm:3":
   version: 3.0.2
   resolution: "get-uri@npm:3.0.2"
@@ -5210,7 +5199,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"glob@npm:^7.0.0, glob@npm:^7.0.5, glob@npm:^7.1.3, glob@npm:^7.1.4, glob@npm:^7.2.0":
+"glob@npm:^7.0.0, glob@npm:^7.0.5, glob@npm:^7.1.3, glob@npm:^7.1.4":
   version: 7.2.3
   resolution: "glob@npm:7.2.3"
   dependencies:
@@ -6873,17 +6862,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"js-yaml@npm:4.1.0, js-yaml@npm:^4.1.0":
-  version: 4.1.0
-  resolution: "js-yaml@npm:4.1.0"
-  dependencies:
-    argparse: "npm:^2.0.1"
-  bin:
-    js-yaml: bin/js-yaml.js
-  checksum: 03ab64a1008a68bb534a223f855c1dd595c0fc6b2800517f555803ed6e96c1cd365e19088ae46a466329a7b77b1e7951589db76a6ea2d525374a4167f69ac776
-  languageName: node
-  linkType: hard
-
 "js-yaml@npm:^3.13.1":
   version: 3.14.1
   resolution: "js-yaml@npm:3.14.1"
@@ -6893,6 +6871,17 @@ __metadata:
   bin:
     js-yaml: bin/js-yaml.js
   checksum: 1e0e655c5f9917215112c31302061f425cfd33af0d617e30bb043951226b25f582bcf460b197491966ba1452a98f38bc38accc910b416b9783aa1df99af38df2
+  languageName: node
+  linkType: hard
+
+"js-yaml@npm:^4.1.0":
+  version: 4.1.0
+  resolution: "js-yaml@npm:4.1.0"
+  dependencies:
+    argparse: "npm:^2.0.1"
+  bin:
+    js-yaml: bin/js-yaml.js
+  checksum: 03ab64a1008a68bb534a223f855c1dd595c0fc6b2800517f555803ed6e96c1cd365e19088ae46a466329a7b77b1e7951589db76a6ea2d525374a4167f69ac776
   languageName: node
   linkType: hard
 
@@ -9025,13 +9014,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"path-to-regexp@npm:3.2.0":
-  version: 3.2.0
-  resolution: "path-to-regexp@npm:3.2.0"
-  checksum: 4b5bfcdedbb216b54edaa89898f0850fee568a60fbfc9fb360aa1fda1f1e024cb18cbfc5c8b730e60cca71da8c64f09eef2326ebb6bdf4559bef54ef600efbe8
-  languageName: node
-  linkType: hard
-
 "path-type@npm:^4.0.0":
   version: 4.0.0
   resolution: "path-type@npm:4.0.0"
@@ -9749,6 +9731,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"resolve-pkg-maps@npm:^1.0.0":
+  version: 1.0.0
+  resolution: "resolve-pkg-maps@npm:1.0.0"
+  checksum: 6d91a6387c12ba1d67e09d35205df09cf6871debe8618d695b828ee2609e382463bbbab42b860f63c000bae39e464772d0ea6b7753802fb42ac3cbe33bd8154e
+  languageName: node
+  linkType: hard
+
 "resolve.exports@npm:^2.0.0":
   version: 2.0.2
   resolution: "resolve.exports@npm:2.0.2"
@@ -9756,7 +9745,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"resolve@npm:^1.1.6, resolve@npm:^1.10.0, resolve@npm:^1.20.0, resolve@npm:^1.22.0, resolve@npm:^1.22.1":
+"resolve@npm:^1.1.6, resolve@npm:^1.10.0, resolve@npm:^1.20.0, resolve@npm:^1.22.1":
   version: 1.22.2
   resolution: "resolve@npm:1.22.2"
   dependencies:
@@ -9782,7 +9771,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"resolve@patch:resolve@npm%3A^1.1.6#optional!builtin<compat/resolve>, resolve@patch:resolve@npm%3A^1.10.0#optional!builtin<compat/resolve>, resolve@patch:resolve@npm%3A^1.20.0#optional!builtin<compat/resolve>, resolve@patch:resolve@npm%3A^1.22.0#optional!builtin<compat/resolve>, resolve@patch:resolve@npm%3A^1.22.1#optional!builtin<compat/resolve>":
+"resolve@patch:resolve@npm%3A^1.1.6#optional!builtin<compat/resolve>, resolve@patch:resolve@npm%3A^1.10.0#optional!builtin<compat/resolve>, resolve@patch:resolve@npm%3A^1.20.0#optional!builtin<compat/resolve>, resolve@patch:resolve@npm%3A^1.22.1#optional!builtin<compat/resolve>":
   version: 1.22.2
   resolution: "resolve@patch:resolve@npm%3A1.22.2#optional!builtin<compat/resolve>::version=1.22.2&hash=c3c19d"
   dependencies:
@@ -10661,10 +10650,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"swagger-ui-dist@npm:4.18.2":
-  version: 4.18.2
-  resolution: "swagger-ui-dist@npm:4.18.2"
-  checksum: 71e663ce4b49e559749d9053426b60a4f92d8d8ee95f8cd852561a9ea0c5931f9381c2215511364025ab05a5cf51e8dfe1be6e18147f928ce9b84a820fd9360b
+"tapable@npm:^2.2.0":
+  version: 2.2.1
+  resolution: "tapable@npm:2.2.1"
+  checksum: d54320ef41e04b13e27e20bfc355bd27bccb4b1ac28123a35d36d903b393944a957a7629b56e808e1a2ef03dcaf1c114e97de7a1b7cbf16e522cd0630219702e
   languageName: node
   linkType: hard
 

@@ -1,5 +1,9 @@
 {
   "root": true,
   "extends": ["@byndyusoft/eslint-config/header-apache-2.0", "@byndyusoft/eslint-config/backend" ],
-  "ignorePatterns": ["src/**/files"]
+  "ignorePatterns": ["src/**/files"],
+  "rules": {
+    "header/header": "off",
+    "unicorn/no-abusive-eslint-disable": "off"
+  }
 }

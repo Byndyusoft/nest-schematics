@@ -13,6 +13,7 @@ import {
   addPackageJsonDependency,
 } from "@schematics/angular/utility/dependencies";
 
+/* eslint-disable-next-line */
 import { normalize } from "path";
 import { spawnSync } from "child_process";
 
@@ -32,7 +33,7 @@ export function main(): Rule {
     },
     // Затем добавляем свойство в package.json.
     (tree: Tree) => {
-      const pkgPath = "./packages/app/package.json";
+      const packagePath = "./packages/app/package.json";
 
       addPackageJsonDependency(
         tree,
@@ -42,7 +43,7 @@ export function main(): Rule {
           version: "8.1.4",
           overwrite: true,
         },
-        pkgPath,
+        packagePath,
       );
 
       addPackageJsonDependency(
@@ -53,7 +54,7 @@ export function main(): Rule {
           version: "workspace:*",
           overwrite: true,
         },
-        pkgPath,
+        packagePath,
       );
 
       spawnSync("yarn", ["install"]);

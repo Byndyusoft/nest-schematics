@@ -11,6 +11,7 @@ import {
   url,
 } from "@angular-devkit/schematics";
 
+/* eslint-disable-next-line */
 import { normalize } from "path";
 import { AppOptions } from "./index.schema";
 
