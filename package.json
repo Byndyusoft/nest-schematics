@@ -20,7 +20,7 @@
     "!dist/*.tsbuildinfo"
   ],
   "scripts": {
-    "_postinstall": "husky install",
+    "postinstall": "husky install",
     "_test:cov": "jest --coverage",
     "prebuild": "shx rm -rf ./dist",
     "build": "yarn run prebuild && yarn run build:src && yarn run postbuild",
