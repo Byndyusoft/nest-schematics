@@ -1,7 +1,7 @@
 {
   "name": "@byndyusoft/nest-schematics",
-  "version": "0.0.1-development",
-  "description": "Nest schematics",
+  "version": "0.0.0-development",
+  "description": "NestJS schematics",
   "homepage": "https://github.com/Byndyusoft/nest-schematics#readme",
   "bugs": {
     "url": "https://github.com/Byndyusoft/nest-schematics/issues"
