@@ -1,9 +1,8 @@
-# ᐸRepository nameᐳ
+# <%= repositoryName %>
 
-[![test](https://github.com/Byndyusoft/nest-template/actions/workflows/test.yaml/badge.svg?branch=master)](https://github.com/Byndyusoft/nest-template/actions/workflows/test.yaml)
 [![code style: prettier](https://img.shields.io/badge/code_style-prettier-ff69b4.svg)](https://github.com/prettier/prettier)
 
-ᐸRepository descriptionᐳ
+<%= repositoryDescription %>
 
 ## Monorepo
 
@@ -48,12 +47,6 @@ yarn run start
 - [@Byndyusoft/owners](https://github.com/orgs/Byndyusoft/teams/owners) <<github.maintain@byndyusoft.com>>
 - [@Byndyusoft/team](https://github.com/orgs/Byndyusoft/teams/team)
 - [@KillWolfVlad](https://github.com/KillWolfVlad)
-
-## Wiki
-
-- [Home](https://github.com/Byndyusoft/nest-template/wiki)
-- [PostgreSQL](https://github.com/Byndyusoft/nest-template/wiki/PostgreSQL)
-- [add-typeOrm](https://github.com/Byndyusoft/nest-template/wiki/add-typeOrm)
 
 ## License
 

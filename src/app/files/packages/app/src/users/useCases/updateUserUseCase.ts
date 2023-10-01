@@ -5,7 +5,7 @@ import {
   QueryWithUserVersionDto,
   UpdateUserDto,
   UserDto,
-} from "ᐸDtosᐳ";
+} from "<%= dtosName %>";
 
 import { UpdateUserCommand } from "../dataAccess";
 

@@ -1,18 +1,87 @@
 {
-  "$schema": "http://json-schema.org/schema",
+  "$schema": "http://json-schema.org/draft-07/schema#",
   "$id": "app",
-  "title": "app template",
+  "title": "App template",
   "type": "object",
   "properties": {
     "name": {
       "type": "string",
-      "description": "the app template.",
       "$default": {
         "$source": "argv",
         "index": 0
       },
-      "x-prompt": "Enter the name of the package author"
+      "x-prompt": "Application destination directory"
+    },
+    "githubUrl": {
+      "type": "string",
+      "default": "https://github.com",
+      "x-prompt": "GitHub URL"
+    },
+    "githubOrganization": {
+      "type": "string",
+      "default": "Byndyusoft",
+      "x-prompt": "GitHub organization"
+    },
+    "repositoryName": {
+      "type": "string",
+      "default": "ᐸRepository nameᐳ",
+      "x-prompt": "Repository name"
+    },
+    "repositoryDescription": {
+      "type": "string",
+      "default": "ᐸRepository descriptionᐳ",
+      "x-prompt": "Repository description"
+    },
+    "license": {
+      "type": "string",
+      "default": "Apache-2.0",
+      "x-prompt": "License"
+    },
+    "author": {
+      "type": "string",
+      "default": "Byndyusoft",
+      "x-prompt": "Author"
+    },
+    "appName": {
+      "type": "string",
+      "default": "ᐸAppᐳ",
+      "x-prompt": "Application name"
+    },
+    "appDescription": {
+      "type": "string",
+      "default": "ᐸApp descriptionᐳ",
+      "x-prompt": "Application description"
+    },
+    "clientName": {
+      "type": "string",
+      "default": "ᐸClientᐳ",
+      "x-prompt": "Client name"
+    },
+    "clientDescription": {
+      "type": "string",
+      "default": "ᐸClient descriptionᐳ",
+      "x-prompt": "Client description"
+    },
+    "dtosName": {
+      "type": "string",
+      "default": "ᐸDtosᐳ",
+      "x-prompt": "Dtos name"
+    },
+    "dtosDescription": {
+      "type": "string",
+      "default": "ᐸDtos descriptionᐳ",
+      "x-prompt": "Dtos description"
+    },
+    "dtosTestingName": {
+      "type": "string",
+      "default": "ᐸDtos testingᐳ",
+      "x-prompt": "Dtos testing name"
+    },
+    "dtosTestingDescription": {
+      "type": "string",
+      "default": "ᐸDtos testing descriptionᐳ",
+      "x-prompt": "Dtos testing description"
     }
   },
-  "required": []
+  "required": ["name"]
 }

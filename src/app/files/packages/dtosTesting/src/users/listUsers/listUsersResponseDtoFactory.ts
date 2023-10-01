@@ -1,7 +1,7 @@
 import { makeDtoFactory } from "@byndyusoft/dto-factory";
 import { faker } from "@faker-js/faker";
 
-import { ListUsersResponseDto } from "ᐸDtosᐳ";
+import { ListUsersResponseDto } from "<%= dtosName %>";
 
 import { userDtoFactory } from "../common";
 

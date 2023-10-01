@@ -77,7 +77,7 @@ async function bootstrap(): Promise<void> {
   );
 }
 
-await bootstrap().catch((error) => {
+bootstrap().catch((error) => {
   console.error(error);
   process.exit(1);
 });

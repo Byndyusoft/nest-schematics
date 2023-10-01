@@ -4,7 +4,7 @@ import {
   listUsersQueryDtoFactory,
   listUsersResponseDtoFactory,
   userDtoFactory,
-} from "ᐸDtos testingᐳ";
+} from "<%= dtosTestingName %>";
 
 import { ListUsersQuery } from "../../../src/users/dataAccess";
 import { ListUsersUseCase } from "../../../src/users/useCases";

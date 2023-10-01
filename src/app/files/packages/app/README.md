@@ -1,6 +1,6 @@
-# ᐸAppᐳ
+# <%= appName %>
 
-ᐸApp descriptionᐳ
+<%= appDescription %>
 
 ## General folders layout
 

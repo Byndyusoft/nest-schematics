@@ -1,7 +1,7 @@
 import { makeDtoFactory } from "@byndyusoft/dto-factory";
 import { faker } from "@faker-js/faker";
 
-import { ListUsersQueryDto } from "ᐸDtosᐳ";
+import { ListUsersQueryDto } from "<%= dtosName %>";
 
 export const listUsersQueryDtoFactory = makeDtoFactory<ListUsersQueryDto>(
   () => ({

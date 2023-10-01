@@ -71,7 +71,8 @@
     "@angular-devkit/core": "^15.2.6",
     "@angular-devkit/schematics": "^15.2.6",
     "@schematics/angular": "^15.2.4",
-    "eslint-plugin-unicorn": "^47.0.0",
+    "execa": "^8.0.1",
+    "schematics-task": "^0.2.9",
     "tslib": "^2.4.0"
   },
   "devDependencies": {

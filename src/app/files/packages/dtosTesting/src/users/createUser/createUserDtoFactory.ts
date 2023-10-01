@@ -1,7 +1,7 @@
 import { makeDtoFactory } from "@byndyusoft/dto-factory";
 import _ from "lodash";
 
-import { CreateUserDto } from "ᐸDtosᐳ";
+import { CreateUserDto } from "<%= dtosName %>";
 
 import { userDtoFactory } from "../common";
 
