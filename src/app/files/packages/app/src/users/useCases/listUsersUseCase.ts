@@ -1,6 +1,6 @@
 import { Injectable } from "@nestjs/common";
 
-import { ListUsersQueryDto, ListUsersResponseDto } from "ᐸDtosᐳ";
+import { ListUsersQueryDto, ListUsersResponseDto } from "<%= dtosName %>";
 
 import { ListUsersQuery } from "../dataAccess";
 

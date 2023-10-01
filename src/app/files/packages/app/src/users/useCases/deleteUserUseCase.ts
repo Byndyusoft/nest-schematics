@@ -1,6 +1,10 @@
 import { Injectable } from "@nestjs/common";
 
-import { ParamsWithUserIdDto, QueryWithUserVersionDto, UserDto } from "ᐸDtosᐳ";
+import {
+  ParamsWithUserIdDto,
+  QueryWithUserVersionDto,
+  UserDto,
+} from "<%= dtosName %>";
 
 import { UpdateUserCommand } from "../dataAccess";
 

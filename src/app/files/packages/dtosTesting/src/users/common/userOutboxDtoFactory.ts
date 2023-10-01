@@ -1,7 +1,7 @@
 import { makeDtoFactory } from "@byndyusoft/dto-factory";
 import { faker } from "@faker-js/faker";
 
-import { UserOutboxDto } from "ᐸDtosᐳ";
+import { UserOutboxDto } from "<%= dtosName %>";
 
 import { userDtoFactory } from "./userDtoFactory";
 

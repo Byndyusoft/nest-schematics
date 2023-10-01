@@ -5,7 +5,7 @@ import {
   queryWithUserVersionDtoFactory,
   updateUserDtoFactory,
   userDtoFactory,
-} from "ᐸDtos testingᐳ";
+} from "<%= dtosTestingName %>";
 
 import { UpdateUserCommand } from "../../../src/users/dataAccess";
 import {

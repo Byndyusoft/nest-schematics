@@ -1,11 +1,11 @@
-# ᐸDtos testingᐳ
+# <%= dtosTestingName %>
 
-ᐸDtos testing descriptionᐳ
+<%= dtosTestingDescription %>
 
 ## Install
 
 ```bash
-yarn add --dev ᐸDtos testingᐳ ᐸDtosᐳ
+yarn add --dev <%= dtosTestingName %> <%= dtosName %>
 ```
 
 You also need install all required peer dependencies.

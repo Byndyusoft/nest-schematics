@@ -1,7 +1,7 @@
 import { makeDtoFactory } from "@byndyusoft/dto-factory";
 import _ from "lodash";
 
-import { QueryWithUserVersionDto } from "ᐸDtosᐳ";
+import { QueryWithUserVersionDto } from "<%= dtosName %>";
 
 import { userDtoFactory } from "./userDtoFactory";
 

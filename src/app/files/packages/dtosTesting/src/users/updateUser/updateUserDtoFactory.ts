@@ -1,6 +1,6 @@
 import { makeDtoFactory } from "@byndyusoft/dto-factory";
 
-import { UpdateUserDto } from "ᐸDtosᐳ";
+import { UpdateUserDto } from "<%= dtosName %>";
 
 import { createUserDtoFactory } from "../createUser";
 

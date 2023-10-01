@@ -1,6 +1,6 @@
 import { Injectable } from "@nestjs/common";
 
-import { ParamsWithUserIdDto } from "ᐸDtosᐳ";
+import { ParamsWithUserIdDto } from "<%= dtosName %>";
 
 import { CheckUserExistsQuery } from "../dataAccess";
 import { UserNotFoundException } from "../exceptions";

@@ -9,7 +9,7 @@ import {
   QueryWithUserVersionDto,
   UpdateUserDto,
   UserDto,
-} from "ᐸDtosᐳ";
+} from "<%= dtosName %>";
 
 @Injectable()
 export class UsersClient {
