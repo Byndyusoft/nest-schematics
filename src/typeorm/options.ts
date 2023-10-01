@@ -14,7 +14,21 @@
  * limitations under the License.
  */
 
-export * from "./addDefaultYarnTasks";
-export * from "./addPackageJsonDependencies";
-export * from "./addPackageJsonScripts";
-export * from "./addShellTasks";
+export interface TypeormOptions {
+  readonly githubUrl: string;
+  readonly githubOrganization: string;
+
+  readonly repositoryName: string;
+  readonly repositoryDescription: string;
+
+  readonly license: string;
+  readonly author: string;
+
+  readonly dtosName: string;
+
+  readonly entitiesName: string;
+  readonly entitiesDescription: string;
+
+  readonly migratorName: string;
+  readonly migratorDescription: string;
+}
