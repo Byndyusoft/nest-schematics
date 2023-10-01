@@ -1,6 +1,6 @@
 import { Column, Entity, PrimaryGeneratedColumn } from "typeorm";
 
-import { UserOutboxDto } from "ᐸDtosᐳ";
+import { UserOutboxDto } from "<%= dtosName %>";
 
 @Entity({
   name: "users_outbox",

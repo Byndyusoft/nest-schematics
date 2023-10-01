@@ -1,0 +1,64 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "typeorm",
+  "title": "Add TypeOrm",
+  "type": "object",
+  "properties": {
+    "githubUrl": {
+      "type": "string",
+      "default": "https://github.com",
+      "x-prompt": "GitHub URL"
+    },
+    "githubOrganization": {
+      "type": "string",
+      "default": "Byndyusoft",
+      "x-prompt": "GitHub organization"
+    },
+    "repositoryName": {
+      "type": "string",
+      "default": "ᐸRepository nameᐳ",
+      "x-prompt": "Repository name"
+    },
+    "repositoryDescription": {
+      "type": "string",
+      "default": "ᐸRepository descriptionᐳ",
+      "x-prompt": "Repository description"
+    },
+    "license": {
+      "type": "string",
+      "default": "Apache-2.0",
+      "x-prompt": "License"
+    },
+    "author": {
+      "type": "string",
+      "default": "Byndyusoft",
+      "x-prompt": "Author"
+    },
+    "dtosName": {
+      "type": "string",
+      "default": "ᐸDtosᐳ",
+      "x-prompt": "Dtos name"
+    },
+    "entitiesName": {
+      "type": "string",
+      "default": "ᐸEntitiesᐳ",
+      "x-prompt": "Entities name"
+    },
+    "entitiesDescription": {
+      "type": "string",
+      "default": "ᐸEntities descriptionᐳ",
+      "x-prompt": "Entities description"
+    },
+    "migratorName": {
+      "type": "string",
+      "default": "ᐸMigratorᐳ",
+      "x-prompt": "Migrator name"
+    },
+    "migratorDescription": {
+      "type": "string",
+      "default": "ᐸMigrator descriptionᐳ",
+      "x-prompt": "Migrator description"
+    }
+  },
+  "required": []
+}

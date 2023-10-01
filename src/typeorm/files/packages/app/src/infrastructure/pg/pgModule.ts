@@ -1,7 +1,7 @@
 import { Module } from "@nestjs/common";
 import { TypeOrmModule } from "@nestjs/typeorm";
 
-import * as entities from "ᐸEntitiesᐳ";
+import * as entities from "<%= entitiesName %>";
 
 import { ConfigDto } from "../config";
 
