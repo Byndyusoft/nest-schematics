@@ -1,8 +1,7 @@
 import { TracingService } from "@byndyusoft/nest-opentracing";
 import { Injectable } from "@nestjs/common";
-import _ from "lodash";
 
-import { UserDto } from "ᐸDtosᐳ";
+import { UserDto } from "<%= dtosName %>";
 
 export interface IListUsersQueryOptions {
   readonly userIds?: string[];
@@ -21,8 +20,8 @@ export class ListUsersQuery {
       const users: UserDto[] = [
         {
           userId: "1",
-          name: _.first(options.names) ?? "name",
-          email: "email",
+          name: options.names?.[0] ?? "name",
+          email: options.emails?.[0] ?? "email",
           userVersion: 1,
         },
       ];

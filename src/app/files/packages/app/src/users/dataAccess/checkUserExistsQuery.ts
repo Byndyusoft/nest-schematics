@@ -13,9 +13,9 @@ export class CheckUserExistsQuery {
     return this.tracingService.traceAsyncFunction(
       CheckUserExistsQuery.name,
       () => {
-        const userVariableCheck = options.userId ? true : false;
+        const isUserExists = options.userId ? true : false;
 
-        return Promise.resolve(userVariableCheck);
+        return Promise.resolve(isUserExists);
       },
     );
   }

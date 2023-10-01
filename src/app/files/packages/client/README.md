@@ -1,11 +1,11 @@
-# ᐸClientᐳ
+# <%= clientName %>
 
-ᐸClient descriptionᐳ
+<%= clientDescription %>
 
 ## Install
 
 ```bash
-yarn add ᐸClientᐳ ᐸDtosᐳ @nestjs/axios @nestjs/common rxjs
+yarn add <%= clientName %> <%= dtosName %> @nestjs/axios @nestjs/common rxjs
 ```
 
 You also need install all required peer dependencies.

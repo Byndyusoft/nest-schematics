@@ -1,17 +1,17 @@
 {
-  "name": "ᐸDtos testingᐳ",
+  "name": "<%= dtosTestingName %>",
   "version": "0.0.0-development",
-  "description": "ᐸDtos testing descriptionᐳ",
-  "homepage": "https://github.com/Byndyusoft/ᐸRepository nameᐳ#readme",
+  "description": "<%= dtosTestingDescription %>",
+  "homepage": "<%= githubUrl %>/<%= githubOrganization %>/<%= repositoryName %>#readme",
   "bugs": {
-    "url": "https://github.com/Byndyusoft/ᐸRepository nameᐳ/issues"
+    "url": "<%= githubUrl %>/<%= githubOrganization %>/<%= repositoryName %>/issues"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/Byndyusoft/ᐸRepository nameᐳ.git"
+    "url": "<%= githubUrl %>/<%= githubOrganization %>/<%= repositoryName %>.git"
   },
-  "license": "Apache-2.0",
-  "author": "Byndyusoft",
+  "license": "<%= license %>",
+  "author": "<%= author %>",
   "main": "./dist/index.js",
   "types": "./dist/index.d.ts",
   "files": [
@@ -28,25 +28,25 @@
     "@byndyusoft/dto-factory": "^1.0.1",
     "@faker-js/faker": "^7.6.0",
     "lodash": "^4.17.21",
-    "tslib": "^2.4.1"
+    "tslib": "^2.5.0"
   },
   "devDependencies": {
+    "<%= dtosName %>": "workspace:*",
     "@byndyusoft/class-validator-extended": "1.0.1",
-    "@byndyusoft/nest-swagger": "6.1.2-1",
+    "@byndyusoft/nest-swagger": "6.3.0-1",
     "@byndyusoft/tsconfig": "1.2.0",
-    "@nestjs/common": "9.2.1",
-    "@nestjs/core": "9.2.1",
-    "@types/lodash": "4.14.191",
+    "@nestjs/common": "9.3.12",
+    "@nestjs/core": "9.3.12",
+    "@types/lodash": "4.14.192",
     "class-transformer": "0.5.1",
     "class-validator": "0.14.0",
     "reflect-metadata": "0.1.13",
     "rxjs": "7.8.0",
     "shx": "0.3.4",
-    "typescript": "4.9.4",
-    "ᐸDtosᐳ": "workspace:*"
+    "typescript": "5.0.3"
   },
   "peerDependencies": {
-    "ᐸDtosᐳ": "workspace:*"
+    "<%= dtosName %>": "workspace:*"
   },
   "engines": {
     "node": ">=16"

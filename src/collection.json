@@ -2,7 +2,7 @@
   "$schema": "../node_modules/@angular-devkit/schematics/collection-schema.json",
   "schematics": {
     "app": {
-      "description": "Create a Nest app.",
+      "description": "App template",
       "factory": "./app/index#main",
       "schema": "./app/schema.json"
     },

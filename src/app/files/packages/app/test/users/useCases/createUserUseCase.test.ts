@@ -1,6 +1,6 @@
 import { mock, MockProxy } from "jest-mock-extended";
 
-import { createUserDtoFactory, userDtoFactory } from "ᐸDtos testingᐳ";
+import { createUserDtoFactory, userDtoFactory } from "<%= dtosTestingName %>";
 
 import { CreateUserCommand } from "../../../src/users/dataAccess";
 import { CreateUserUseCase } from "../../../src/users/useCases";

@@ -1,11 +1,11 @@
-# ᐸDtosᐳ
+# <%= dtosName %>
 
-ᐸDtos descriptionᐳ
+<%= dtosDescription %>
 
 ## Install
 
 ```bash
-yarn add ᐸDtosᐳ @byndyusoft/class-validator-extended @byndyusoft/nest-swagger class-transformer class-validator
+yarn add <%= dtosName %> @byndyusoft/class-validator-extended @byndyusoft/nest-swagger class-transformer class-validator
 ```
 
 You also need install all required peer dependencies.

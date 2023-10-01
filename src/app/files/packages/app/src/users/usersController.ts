@@ -19,7 +19,7 @@ import {
   QueryWithUserVersionDto,
   UpdateUserDto,
   UserDto,
-} from "ᐸDtosᐳ";
+} from "<%= dtosName %>";
 
 import { ApiCommonResponses } from "../infrastructure";
 

@@ -8,7 +8,7 @@ import {
   QueryWithUserVersionDto,
   UpdateUserDto,
   UserDto,
-} from "ᐸDtosᐳ";
+} from "<%= dtosName %>";
 
 import {
   CreateUserUseCase,
