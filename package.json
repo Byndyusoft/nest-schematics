@@ -40,6 +40,33 @@
     "postpublish": "pinst --enable",
     "test": "jest"
   },
+  "jest": {
+    "collectCoverageFrom": [
+      "./src/**/*.ts",
+      "!**/index.ts"
+    ],
+    "coverageDirectory": "<rootDir>/coverage",
+    "coverageReporters": [
+      "lcov",
+      "text"
+    ],
+    "moduleFileExtensions": [
+      "ts",
+      "js"
+    ],
+    "resetMocks": true,
+    "roots": [
+      "<rootDir>/test"
+    ],
+    "setupFilesAfterEnv": [
+      "jest-extended/all"
+    ],
+    "testEnvironment": "node",
+    "testRegex": ".*\\.test\\.ts$",
+    "transform": {
+      "^.+\\.ts$": "ts-jest"
+    }
+  },
   "dependencies": {
     "@angular-devkit/core": "^15.2.6",
     "@angular-devkit/schematics": "^15.2.6",
@@ -79,9 +106,5 @@
   "publishConfig": {
     "access": "public"
   },
-  "schematics": "./dist/collection.json",
-  "testPathIgnorePatterns": [
-    "/node_modules/",
-    "./*/*/files"
-  ]
+  "schematics": "./dist/collection.json"
 }
