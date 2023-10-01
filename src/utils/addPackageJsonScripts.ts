@@ -14,7 +14,22 @@
  * limitations under the License.
  */
 
-export * from "./addDefaultYarnTasks";
-export * from "./addPackageJsonDependencies";
-export * from "./addPackageJsonScripts";
-export * from "./addShellTasks";
+import { Tree } from "@angular-devkit/schematics";
+import { JSONFile } from "@schematics/angular/utility/json-file";
+
+export interface PackageJsonScript {
+  readonly name: string;
+  readonly value: string;
+}
+
+export const addPackageJsonScripts = (
+  tree: Tree,
+  packageJsonPath: string,
+  ...scripts: readonly PackageJsonScript[]
+): void => {
+  const json = new JSONFile(tree, packageJsonPath);
+
+  for (const { name, value } of scripts) {
+    json.modify(["scripts", name], value);
+  }
+};

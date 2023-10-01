@@ -1,22 +1,22 @@
-# ᐸEntitiesᐳ
+# <%= entitiesName %>
 
-ᐸEntities descriptionᐳ
+<%= entitiesDescription %>
 
 ## Install
 
 ```bash
-yarn add ᐸEntitiesᐳ ᐸDtosᐳ typeorm
+yarn add <%= entitiesName %> <%= dtosName %> typeorm
 ```
 
 You also need install all required peer dependencies.
 
 ## General folders layout
 
-- [src](src) - directory with source code
+- [src](./src) - directory with source code
 
 ## Dependencies
 
-Package dependencies are listed in [package.json](package.json) file.
+Package dependencies are listed in [package.json](./package.json) file.
 All internal dependencies must be built before build package.
 
 ## Building locally

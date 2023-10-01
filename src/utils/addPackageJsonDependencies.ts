@@ -14,7 +14,18 @@
  * limitations under the License.
  */
 
-export * from "./addDefaultYarnTasks";
-export * from "./addPackageJsonDependencies";
-export * from "./addPackageJsonScripts";
-export * from "./addShellTasks";
+import { Tree } from "@angular-devkit/schematics";
+import {
+  addPackageJsonDependency,
+  NodeDependency,
+} from "@schematics/angular/utility/dependencies";
+
+export const addPackageJsonDependencies = (
+  tree: Tree,
+  packageJsonPath: string,
+  ...dependencies: readonly NodeDependency[]
+): void => {
+  for (const dependency of dependencies) {
+    addPackageJsonDependency(tree, dependency, packageJsonPath);
+  }
+};

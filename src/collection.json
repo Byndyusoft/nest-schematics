@@ -6,10 +6,10 @@
       "factory": "./app/index#main",
       "schema": "./app/schema.json"
     },
-    "pgModule": {
-      "description": "Create a Nest module.",
-      "factory": "./pgModule/index#main",
-      "schema": "./pgModule/schema.json"
+    "typeorm": {
+      "description": "Add TypeOrm",
+      "factory": "./typeorm/index#main",
+      "schema": "./typeorm/schema.json"
     }
   }
 }
