@@ -9,7 +9,7 @@
 
 ## Requirements
 
-- Node.js v16 LTS or later
+- Node.js v18 LTS or later
 - Yarn
 
 ## Usage
