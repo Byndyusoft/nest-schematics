@@ -9979,9 +9979,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"pino-pretty@npm:9.1.1":
-  version: 9.1.1
-  resolution: "pino-pretty@npm:9.1.1"
+"pino-pretty@npm:10.2.3":
+  version: 10.2.3
+  resolution: "pino-pretty@npm:10.2.3"
   dependencies:
     colorette: "npm:^2.0.7"
     dateformat: "npm:^4.6.3"
@@ -9999,7 +9999,7 @@ __metadata:
     strip-json-comments: "npm:^3.1.1"
   bin:
     pino-pretty: bin.js
-  checksum: 1822e0ca3b711e34c279373ff168dcde092765f1f317a1255b7dbc11621a815791c168c1f0d51bbd23c3565b50dfeb776480c178d37a6f3aa92f9fe89eec710b
+  checksum: 9e3715d0cff43af5571d02b6c48f504a11ec8a20cb903345ff613373bb1d30e1e83f2175d6695ee3969d7acd36746037fee6e5ef9019609ab635deae8922d8c1
   languageName: node
   linkType: hard
 
@@ -13228,7 +13228,7 @@ __metadata:
     pg: "npm:8.8.0"
     pino: "npm:8.8.0"
     pino-http: "npm:8.3.1"
-    pino-pretty: "npm:9.1.1"
+    pino-pretty: "npm:10.2.3"
     reflect-metadata: "npm:0.1.13"
     rxjs: "npm:7.8.0"
     schema-user: "https://github.com/argus-xd/nestjs-schema-user.git"
