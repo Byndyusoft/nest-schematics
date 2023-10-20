@@ -532,7 +532,7 @@ __metadata:
     copyfiles: "npm:^2.4.1"
     cpx: "npm:1.5.0"
     eslint: "npm:8.40.0"
-    eslint-config-prettier: "npm:8.8.0"
+    eslint-config-prettier: "npm:9.0.0"
     eslint-plugin-import: "npm:2.27.5"
     eslint-plugin-jest: "npm:^27.2.1"
     eslint-plugin-unicorn: "npm:^47.0.0"
@@ -5092,7 +5092,18 @@ __metadata:
   languageName: node
   linkType: hard
 
-"eslint-config-prettier@npm:8.8.0, eslint-config-prettier@npm:^8.5.0":
+"eslint-config-prettier@npm:9.0.0":
+  version: 9.0.0
+  resolution: "eslint-config-prettier@npm:9.0.0"
+  peerDependencies:
+    eslint: ">=7.0.0"
+  bin:
+    eslint-config-prettier: bin/cli.js
+  checksum: 909cf95d67d09870aa085362007e9fe16254215b1d0944a519e9779335bfbd737e7ccbe4145db2c08a88724f94a135cc55ea07e2183ff6a1e05db111947baa17
+  languageName: node
+  linkType: hard
+
+"eslint-config-prettier@npm:^8.5.0":
   version: 8.8.0
   resolution: "eslint-config-prettier@npm:8.8.0"
   peerDependencies:
