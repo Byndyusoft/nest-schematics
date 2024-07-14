@@ -8429,12 +8429,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"prettier@npm:2.8.7":
-  version: 2.8.7
-  resolution: "prettier@npm:2.8.7"
+"prettier@npm:3.3.3":
+  version: 3.3.3
+  resolution: "prettier@npm:3.3.3"
   bin:
-    prettier: bin-prettier.js
-  checksum: ec15b2e0a2a34a4987cca4ee72b2df56c7f4a4c62322d9a0f3c9efccb2cc0e3efdb791bb2764f2268e69e05946dc72108e5b5957d4bb2c1a41a11733b8b09153
+    prettier: bin/prettier.cjs
+  checksum: 3e916d14632ee87d85c2fdba1450b2d1fcf5d336b7a2a4256bda080fdd43e946a18033334fe9af069fa52ad0369af46829384ab4d13928a4f937b9af2486469f
   languageName: node
   linkType: hard
 
@@ -9045,7 +9045,7 @@ __metadata:
     husky: "npm:8.0.3"
     lint-staged: "npm:13.2.0"
     markdownlint-cli: "npm:0.33.0"
-    prettier: "npm:2.8.7"
+    prettier: "npm:3.3.3"
     prettier-plugin-packagejson: "npm:2.4.3"
   languageName: unknown
   linkType: soft
