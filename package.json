@@ -87,7 +87,7 @@
     "husky": "8.0.3",
     "jest": "29.7.0",
     "jest-extended": "4.0.1",
-    "lint-staged": "14.0.1",
+    "lint-staged": "15.2.10",
     "markdownlint-cli": "0.37.0",
     "pinst": "3.0.0",
     "prettier": "2.8.8",
